@@ -1,0 +1,110 @@
+<html>
+<!doctype html>
+<title>About Me</title>
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: yellowgreen;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+<body>
+  <header id="pageHeader"><h1><a href="index.html">WimberleyOnline</a></h1></header>
+  <article id="mainArticle"><center><h2> My name is Wimberley <b>'GoV'</b> Giùgovaz</h2><br>
+    This is my online home.
+    <br>
+   Well there you have it, you found the place. Good job. <br><br>Now can you find the others? 
+    <br><br>
+    I mean you shouldn't try, why are you following me around the web, honestly it's getting a tad bit strange at this point.
+    <br><br>
+    Well, so you know my name is Gov.
+    <br><br>
+ How google gives us insight through related searches -> Intent<br>
+Look closely -> Get SEO and content Opportunities<br>
+Damaged furniture -> Ads -> scroll through get organic -> sell damaged furniture -> Repairshop -> DIY<br>
+Think about intent to position ratio <br>
+Intent A Buy<br>
+       B Touch up Repair<br>
+       C Show how to DIY<br>
+
+ECommerce Site Design <br>
+<br>
+Intent <br>
+
+A Sell site design (ADS)<br>
+B Inspiration - 30 Best designs<br>
+
+Halloween Laboratory Props<br>
+
+ADS<br>
+Images = 20%+ goes to images<br>
+Pinterest<br>
+Youtube<br>
+Pinterest<br>
+
+    <br><br>
+    <picture>
+ <source srcset="https://image.prntscr.com/image/NacjXWx_Twe1wjAm_XE5TA.png" media="(min-width: 600px)">
+ <img src="https://image.prntscr.com/image/NacjXWx_Twe1wjAm_XE5TA.png" alt="Rose">
+</picture>
+       <br><br>
+    That above is a picture of a rose, which is one of the things I like about the world.
+    </center></article>
+  <nav id="mainNav">
+  <tr> 
+<td class="body">
+			 <ul style="margin-top: 0px; margin-left: 5px; margin-bottom: 0px"> 
+				<li><a href="gov.html">About me
+                 </a></li> <li><a href="#">Favorite Places</a></li> 
+				<li><a href="#">Regional Facts</a></li> 
+				
+				<li><a href="#">History</a></li> 
+				<li><a href="#">Awards</a></li> 
+				<li><a href="mailto:Contact@WimberleyOnline.com">Email Me</a> </li>
+</li> 
+			 </ul></td> 
+</tr> 
+  </nav>
+  <div id="siteAds">Essentially just a placeholder</div>
+  <footer id="pageFooter"><center>I don't really like sites to be all to filled up so I keep it sleek.</center></footer>
+</body> 
