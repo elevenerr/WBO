@@ -1,0 +1,89 @@
+
+<!doctype html>
+<title>Wimberley 'Gov' Giùgovaz</title>
+<style>
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header ads"
+    "nav article article"
+    "nav footer footer";
+  grid-template-rows: 80px 1fr 70px;  
+  grid-template-columns: 20% 1fr 15%;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }  
+header, footer, article, nav, div {
+  padding: 1.2em;
+  background: yellowgreen;
+  }
+#pageHeader {
+  grid-area: header;
+  }
+#pageFooter {
+  grid-area: footer;
+  }
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads; 
+  } 
+/* Stack the layout on small devices/viewports. */
+@media all and (max-width: 575px) {
+  body { 
+    grid-template-areas: 
+      "header"
+      "article"
+      "ads"
+      "nav"
+      "footer";
+    grid-template-rows: 80px 1fr 70px 1fr 70px;  
+    grid-template-columns: 1fr;
+ }
+}
+</style>
+<body>
+  <header id="pageHeader"><h1>WimberleyOnline</h1></header>
+  <article id="mainArticle"><center><h2> My name is Wimberley <b>'GoV'</b> Giùgovaz</h2><br>
+    This is my online home.
+    <br>
+    I do everything online, I play games, I watch movies, I talk to people, I... well everything.<br>
+    Thing is, most people nowadays do that, it's nothing special i guess.
+    <br><br>
+    But one thing I've put a lot of effort into is gaming, I do like to game. I'd say more people know me by my online name GOV than my real name.
+    <br><br>
+    I mean, is this enough for me to get rankings, I sure do hope so, but I'm fairly certain there's more to it.
+    <br><br>
+    But hey I'm always open to trying new things, and yes I know... let's not go there.
+    <br><br>
+    <picture>
+ <source srcset="https://image.prntscr.com/image/NacjXWx_Twe1wjAm_XE5TA.png" media="(min-width: 600px)">
+ <img src="https://image.prntscr.com/image/NacjXWx_Twe1wjAm_XE5TA.png" alt="Rose">
+</picture>
+       <br><br>
+    That above is a picture of a rose, which is one of the things I like about the world.
+    </center></article>
+  <nav id="mainNav">
+  <tr> 
+<td class="body">
+			 <ul style="margin-top: 0px; margin-left: 5px; margin-bottom: 0px"> 
+				<li><a href="gov.html">About me
+                 </a></li> <li><a href="#">Favorite Places</a></li> 
+				<li><a href="#">Regional Facts</a></li> 
+				
+				<li><a href="#">History</a></li> 
+				<li><a href="#">Awards</a></li> 
+				<li><a href="mailto:Contact@WimberleyOnline.com">Email Me</a> </li>
+</li> 
+			 </ul></td> 
+</tr> 
+  </nav>
+  <div id="siteAds">Essentially just a placeholder</div>
+  <footer id="pageFooter"><center>I don't really like sites to be all to filled up so I keep it sleek.</center></footer>
+</body> 
